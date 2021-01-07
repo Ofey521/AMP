@@ -169,13 +169,36 @@
         </section>
 
 
-        <section id="prices" class="scroll-fix">
+        <section id="czyt" class="scroll-fix">
             <div class="jumbotron jumbotron-fluid">
-               
+    
+                <main role="main">
+                    <div id="carousel" class="carousel" data-ride="carousel">
+                        
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <canvas id="pdf-canvas" class="d-block w-100" data-file="//mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf"></canvas>
+                          <div class="carousel-caption d-none d-md-block">
+                            <span>Page: <span id="page-num"></span> / <span id="page-count"></span></span>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+                        <i class="fas fa-chevron-left fa-2x"></i>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                      <a class="carousel-control-next" href="#" role="button" data-slide="next">
+                        <i class="fas fa-chevron-right fa-2x"></i>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  </main>
+                  
 
-
-              
             </div>
+               
+          
+
         </section>
 
         <section id="contact" class="scroll-fix">
@@ -236,6 +259,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
 
 
+
+    
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
     <script src="static/js/animation.js"></script>
     <script src="static/js/slider.js"></script>
     <script src="static/js/jquery.waypoints.min"></script>
