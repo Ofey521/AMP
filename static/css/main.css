@@ -13,7 +13,7 @@ html {
 
 body {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   background-color: #333;
 }
 
@@ -44,9 +44,8 @@ h2 {
 
 .about-us_text{
   color: rgb(71, 20, 20);
+  font-size: 20px;
 }
-
-
 
 .scroll-fix::before {
   display: block;
@@ -77,7 +76,7 @@ nav i {
 }
 
 nav a:hover {
-  color: #039dff;
+  color: #000000;
 }
 
 nav i {
@@ -87,14 +86,16 @@ nav i {
 nav .navbar-brand {
   font-weight: bold;
   color:#333;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 nav .active {
-  color: #b84b18;
+  color: #f7f33c;
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(243, 73, 16, 0.203);
 }
 
 header {
@@ -117,7 +118,7 @@ header .hero-img {
   z-index: 0;
 
 
-  background: linear-gradient(#f34910, #e7743e, #c99a88, #ffffff);
+  background: linear-gradient(#f34910, #f7b596, #ffeae2, #ffffff);
   background-size: 200% 200%;
 
 }
@@ -131,7 +132,7 @@ header .hero-shadow {
   z-index: -10;
 }
 
-header .hero-text_glowny {
+ .hero-text_glowny {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,44 +149,53 @@ header .hero-text_glowny {
   height: 100%;
   text-align: center;
   color: #ca3d0e;
+  position: relative;
+
 }
 
-.amp{
- 
-  font-size: 50px;
-  color: #ca3d0e;
-  align-items: flex-start;
-}
+
 
 
 .re-text {
   font-size: 160px;
   color: #d10e0e;
+  font-family:'acumin-pro';
+  
 }
 
 .gu-text {
   font-size: 160px;
   color: #d10e0e;
+  font-family: 'cormorant-garamond';
+  font-style: italic;
 }
 
 .ly-text{
   font-size: 160px;
   color: #d10e0e;
+  font-family:'acumin-pro';
 }
 
-.gry-text {
+.gr-text {
   font-size: 160px;
   color: #d10e0e;
+  font-family: 'cormorant-garamond';
 }
 
-
+.y-text{
+  font-size: 160px;
+  color: #d10e0e;
+  font-family:'acumin-pro';
+}
 
 
 header .fa-chevron-down {
   display: none;
 }
 
-
+i.icon-strzala:before {
+  content: "\e900";
+}
 
 
 #home h1 {
@@ -199,30 +209,27 @@ header .fa-chevron-down {
 
 
 
+#aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
 
-
-#aboutus p {
-  font-size: 20px;
-
+#aboutus h3 {
+  font-size: 18px;
+}
+#aboutus p{
+  font-size: 40px;
 }
 
 
 #aboutus .aboutus-hover {
   -webkit-transition: color .3s;
   transition: color .3s;
-
 }
 
 #aboutus .aboutus-hover:hover {
   color: #b4692b;
 }
-
-
-
-
-
-
-
 
 
 
@@ -269,31 +276,6 @@ header .fa-chevron-down {
 #aboutus-hero .about-hero-item .row{
   margin: 10px 0;
   font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#portfolio .carousel-item {
-  position: relative;
-  height: 600px;
 }
 
 #portfolio .carousel-item img {
@@ -453,7 +435,8 @@ header .fa-chevron-down {
 }
 
 footer {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
 footer p {
