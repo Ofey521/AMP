@@ -10,11 +10,12 @@
 html {
   scroll-behavior: smooth;
 }
-
+/*belka stopka font*/
 body {
   position: relative;
   font-family: 'Montserrat';
   background-color: #333;
+  font-size: 20px;
 }
 
 h2 {
@@ -42,7 +43,7 @@ h2 {
 
 
 
-.about-us_text{
+.about-us_text {
   color: rgb(71, 20, 20);
   font-size: 20px;
 }
@@ -70,10 +71,16 @@ nav {
 
 nav a,
 nav i {
-  color: #fff;
+  color: rgb(255, 255, 255);
   -webkit-transition: color .3s;
   transition: color .3s;
 }
+
+a.nav-item.nav-link.radius{
+  border: 2px solid rgb(250, 250, 250);
+  border-radius: 50%;
+}
+
 
 nav a:hover {
   color: #000000;
@@ -85,7 +92,7 @@ nav i {
 
 nav .navbar-brand {
   font-weight: bold;
-  color:#333;
+  color: rgb(51, 51, 51);
   padding-left: 10px;
   padding-top: 10px;
 }
@@ -116,9 +123,7 @@ header .hero-img {
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
-
-
-  background: linear-gradient(#f34910, #f7b596, #ffeae2, #ffffff);
+  background: linear-gradient( rgba(244,73,16,1) 0%, rgba(249,157,126,1) 30%, rgba(233,236,239,1) 50%);
   background-size: 200% 200%;
 
 }
@@ -132,7 +137,7 @@ header .hero-shadow {
   z-index: -10;
 }
 
- .hero-text_glowny {
+.hero-text_glowny {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,41 +158,48 @@ header .hero-shadow {
 
 }
 
-
-
-
 .re-text {
-  font-size: 160px;
-  color: #d10e0e;
-  font-family:'acumin-pro';
-  
+  font-size: 193px;
+  padding: 5px;
+  color: #d84f00;
+  font-family: 'acumin-pro';
+
 }
 
 .gu-text {
-  font-size: 160px;
-  color: #d10e0e;
+  font-size: 204px;
+  padding: 10px;
+  color: #d84f00;
   font-family: 'cormorant-garamond';
   font-style: italic;
 }
 
-.ly-text{
-  font-size: 160px;
-  color: #d10e0e;
-  font-family:'acumin-pro';
+.ly-text {
+  font-size: 193px;
+  padding: 10px;
+  color: #d84f00;
+  font-family: 'acumin-pro';
 }
 
 .gr-text {
-  font-size: 160px;
-  color: #d10e0e;
+  font-size: 204px;
+  padding: 10px;
+  color: #d84f00;
   font-family: 'cormorant-garamond';
 }
 
-.y-text{
-  font-size: 160px;
-  color: #d10e0e;
-  font-family:'acumin-pro';
+.y-text {
+  font-size: 193px;
+  padding: 10px;
+  color: #d84f00;
+  font-family: 'acumin-pro';
 }
 
+.ant{
+  font-family: 'cormorant-garamond';
+  font-size: 79px;
+  
+}
 
 header .fa-chevron-down {
   display: none;
@@ -208,7 +220,6 @@ i.icon-strzala:before {
 }
 
 
-
 #aboutus i {
   margin-top: 20px;
   font-size: 30px;
@@ -217,7 +228,8 @@ i.icon-strzala:before {
 #aboutus h3 {
   font-size: 18px;
 }
-#aboutus p{
+
+#aboutus p {
   font-size: 40px;
 }
 
@@ -233,9 +245,11 @@ i.icon-strzala:before {
 
 
 
-#aboutus-hero {
-  color: rgb(255, 255, 255);
+#aboutus-hero p {
+  color: rgb(0, 0, 0);
   overflow: hidden;
+  font-family: 'acumin-pro';
+  font-size: 100px;
 }
 
 #aboutus-hero .jumbotron {
@@ -246,8 +260,16 @@ i.icon-strzala:before {
   background-attachment: fixed;
   z-index: 0;
 
-  background: linear-gradient(#f34910, #e7743e, #c99a88, #ffffff);
+  background: linear-gradient( rgba(233,236,239,1) 0%, rgba(249,157,126,1) 30%, rgba(244,73,16,1) 50%);
   background-size: 200% 200%;
+}
+
+i.ikona {
+  background: url('/static/img/ikona.svg');
+  height: 20px;
+  width: 20px;
+  display: block;
+  /* Other styles here */
 }
 
 
@@ -263,6 +285,7 @@ i.icon-strzala:before {
 #aboutus-hero .jumbotron p {
   font-size: 14px;
 }
+
 /*
 #aboutus-hero .about-shadow {
   position: absolute;
@@ -273,7 +296,7 @@ i.icon-strzala:before {
   z-index: -10;
 }
 */
-#aboutus-hero .about-hero-item .row{
+#aboutus-hero .about-hero-item .row {
   margin: 10px 0;
   font-size: 20px;
 }
@@ -358,13 +381,13 @@ i.icon-strzala:before {
 
 .carousel-control-prev .carousel-control-prev-icon,
 .carousel-control-next .carousel-control-next-icon {
-    outline: black;
-    background-color: rgba(0, 0, 0, 0.3);
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .carousel-control-prev .fa-chevron-left,
 .carousel-control-next .fa-chevron-right {
-    color: black;
+  color: black;
 }
 
 .carousel-caption {
@@ -494,4 +517,27 @@ footer p {
 
   font-size: 50px;
 
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background: rgba(244,73,16,1); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background: rgba(255,0,0,0.4); 
 }
