@@ -12,6 +12,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // }
     // window.addEventListener('scroll', addShadow)
 
+    function switch_text() {
+        var x = document.getElementById("myDIV");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "Hello";
+        }
+      }
 
     // skrypt naprawiający nawigację (zamyka się po kliknięciu w cokolwiek na mobilce)
     $(document).click(function (event) {

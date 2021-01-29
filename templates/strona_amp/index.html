@@ -87,13 +87,17 @@
 
                     <div class="row name"> <!--d-md-flex-->
                             <div class="col-md-8 col-sm-12 col-lg-8">
+                                
                                 <div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3" style="max-height:800px; border-style: solid; border-color:#e7743e">
-                                    <p>
+                                    <div id="myDIV">    
+
+                                        <p>
                                         Platforma - skupiając się na twórcach przed debiutem książkowym, jak też tych, którzy
                                         wydali już pierwszą książkę poetycką - służy stworzeniu bazy autorów starających się wejść
                                         w struktury pola poetyckiego oraz przepracowaniu permanentnego stanu rozproszenia w
                                         jakim znajdują się autorzy i ich przynależności do środowiska.
-                                    </p>
+                                   
+                                    </p>    
                                     <br>
                                     <p>
                                         Projekt jest jednocześnie związany z badaniami nad rozwojem poezjotwórczości we
@@ -116,21 +120,22 @@
                                         Projekt realizowany w ramach stypendium artystycznego prezydenta Wrocławia z zakresu
                                         upowszechniania kultury - Animacja młodego wrocławskiego środowiska poetyckiego
                                     </p>
-
+                                </div>
                                 </div>
 
                               </div>
 
                               <div class="col-md-4 col-sm-12 col-lg-4">
 
-                                <p>Wprowadzenie</p>
-                                <br>
+                                <button onclick="switch_text()">O nieregularnym środowisku</button>
+
+                                
+                    
                                 <p>O nieregularnym środowisku</p>
 
                               </div>
                             </div>
                     </div>
-
             </div>
         </section>
         <section id="aboutus-hero">
@@ -217,6 +222,7 @@
 
 
     <script src="static/js/animation.js"></script>
+    <script src="static/js/swith.js"></script>
     <script src="static/js/slider.js"></script>
     <script src="static/js/jquery.waypoints.min"></script>
     <script src="static/slick/slick.min.js"></script>
