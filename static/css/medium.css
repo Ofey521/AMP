@@ -17,4 +17,49 @@ header .hero-text p {
 #team .card-body {
   height: 150px;
 }
-/*# sourceMappingURL=medium.css.map */
+
+.re-text {
+  font-size: 80px;
+  padding: 5px;
+  color: #d84f00;
+  font-family: 'acumin-pro';
+
+}
+
+.gu-text {
+  font-size: 89px;
+  padding: 3px;
+  color: #d84f00;
+  font-family: 'cormorant-garamond';
+  font-style: italic;
+}
+
+.ly-text {
+  font-size: 80px;
+  padding: 3px;
+  color: #d84f00;
+  font-family: 'acumin-pro';
+}
+
+.gr-text {
+  font-size: 80px;
+  padding: 3px;
+  color: #d84f00;
+  font-family: 'cormorant-garamond';
+}
+
+.y-text {
+  font-size: 80px;
+  padding: 3px;
+  color: #d84f00;
+  font-family: 'acumin-pro';
+}
+
+.ant{
+  font-family: 'cormorant-garamond';
+  font-size: 50px;
+  
+}
+a.nav-item.nav-link.radius{
+  border: 0px solid rgb(250, 250, 250);
+}

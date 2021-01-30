@@ -8,19 +8,21 @@
     <title>Antologia młodej poezji</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext"
-        rel="stylesheet">
 
-    <link rel="stylesheet" href="https://use.typekit.net/lxk8jvm.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lxk8jvm.css"> <!--ogarnac fontawesome-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
 
     <link rel="stylesheet" href="/static/css/main.css"> 
     <link rel="stylesheet" href="static/css/animate.css">
     <link rel="stylesheet" type="text/css" href="static/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="static/slick/slick-theme.css" />
     
-    <link rel="stylesheet" media='screen and (min-width: 576px)' href="static/css/small.css">
+   <!--  <link rel="stylesheet" media='screen and (min-width: 768px)' href="static/css/small.css"> -->
     <link rel="stylesheet" media='screen and (min-width: 768px)' href="static/css/medium.css">
-    <link rel="stylesheet" media='screen and (min-width: 992px)' href="static/css/large.css">
+    <link rel="stylesheet" media='screen and (min-width: 1300px)' href="static/css/main.css">
     <link rel="stylesheet" href="static/css/font-awesome.css">
     <link rel="stylesheet" href="static/css/all.css">
 
@@ -38,45 +40,40 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+            <!--<i class="fas fa-bars"></i> -->
+            <i class="fas fa-align-center"></i>
         </button>
 
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link active" href="#home">Home</a>
-                <a class="nav-item nav-link radius" href="#aboutus">o projekcie</a>
-                <a class="nav-item nav-link" href="#aboutus-hero">autorzy</a>
-                <a class="nav-item nav-link" href="https://issuu.com/nieregularnesrodowisko/docs/antologia_issu_6ca9cfcadb7392?fbclid=IwAR30dr2x9rii6pYqvrdL7JX2TMX7fXkVIFbcSCJlzuucaqq748Ui7iWKrtU" target="blank">czytaj na issue</a>
-                <a class="nav-item nav-link" href="#contact">aktualności</a>
+                <a class="nav-item nav-link radius" href="#aboutus">O projekcie</a>
+                <a class="nav-item nav-link" href="#aboutus-hero">Autorzy</a>
+                <a class="nav-item nav-link" href="https://issuu.com/nieregularnesrodowisko/docs/antologia_issu_6ca9cfcadb7392?fbclid=IwAR30dr2x9rii6pYqvrdL7JX2TMX7fXkVIFbcSCJlzuucaqq748Ui7iWKrtU" target="blank">Czytaj na issue</a>
+                <a class="nav-item nav-link" href="#contact">Kontakt</a>
             </div>
         </div>
 
     </nav>
-    <header id="home">
-    
-    <div class="hero-img">
-        <div class="hero-shadow"></div>
-            <div class="hero-text_glowny">
-                <div class="first">
-                    <h1 class="os-animation" data-animation='fadeIn' data-delay='.2s'>
-                        <span class="re-text">RE</span><span class="gu-text">GU</span><span class="ly-text">ŁY</span> <span class="gr-text">GR</span><span class="y-text">Y</span> 
-                    </h1>
+
+    <header id="home">  
+        <div class="hero-img">
+                <div class="hero-text_glowny">
+                        <div class="os-animation dlugi" data-animation='fadeIn' data-delay='.2s'>
+                            <span class="re-text">RE</span><i><span class="g-text">G</span></i><em><span class="u-text">u</span></em><span class="ly-text">ŁY</span> <span class="gr-text">GR</span><span class="y-text">Y</span> 
+                        </div>
+
+                <div class="os-animation mat" data-animation='fadeIn' data-delay='.5s'>
+                    <span class="ant"><strong>Antologia młodej poezji</strong></span>
+                    <br>
+                    <span class="ant"><strong>Wrocławskiej 2020 r.</strong></span>
+                        <a href="/static/file/antologia rozkładówki.pdf" download> 
+                        <img src="/static/img/ikona.png"  alt="">
+                        </a>
                 </div>
-            
-
-            <p class="os-animation " data-animation='fadeIn' data-delay='.5s'>
-                <span class="ant"><strong>Antologia młodej poezji</strong></span>
-            </p>
-
-            <p class="os-animation " data-animation='fadeIn' data-delay='.5s'>
-                <span class="ant"><strong>Wrocławskiej 2020 r.</strong></span>
-                    <a href="#aboutus"> 
-                    <img src="/static/img/ikona.png" alt="">
-                    </a>      
-            </p>       
-        </div>
-    </div>    
+                
+        </div>    
 
 <!--   <i class="fas fa-chevron-down"></i>  -->
     </header>
@@ -145,7 +142,6 @@
                 <div class="about-shadow"></div>
                 <div class="wrapper">
                     <h2 class="os-animation visibility" data-animation="fadeIn">Autorzy</h2>
-
                     <div class="underline os-animation visibility" data-animation="fadeIn" data-delay=".1s"></div>
                     <div class="row">
                         <!--33-->
@@ -204,12 +200,9 @@
     <section id="contact" class="scroll-fix">
 
         <div class="jumbotron jumbotron-fluid">
-            <div class="contact-shadow"></div>
-
-            <h2>Kontakt</h2>
 
             <div class="wrapper row text-center contact-us">
-                <div class="contact-item col-sm-6 col-lg-6 order-1 order-lg-1">
+                <div class="contact-item col-sm-4 col-lg-4 order-1 order-lg-1">
                     <h3>Dla autorów</h3>
                     <p>
                         Proszę o przesyłanie tekstów w formatach .doc, .png , czcionka Times New Roman, 12 pkt.,
@@ -218,20 +211,87 @@
                 </div>
 
 
-                <div class="contact-item col-sm-6 col-lg-6 order-1 order-lg-1">
+                <div class="contact-item col-sm-4 col-lg-4 order-1 order-lg-1">
                     <h3>Socjale</h3>
                     <div class="social-media">
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a class="nav-item nav-link" href="http://facebook.com/nieregularnesrodowisko" target="blank"><i class="fab fa-facebook-square"></i></a><br>
+                        <a class="nav-item nav-link" href="http://instagram.com/nieregularnesrodowisko" target="blank"><i class="fab fa-instagram"></i></a>
+                        <br>
+                        <i class="far fa-envelope"></i>
+                        <br>
+                        <span class="mail">nieregularnesrodowisko@gmail.com</span>
+
                     </div>
+                </div>
+                
+                <div class="contact-item col-sm-4 col-lg-4 order-1 order-lg-1">
+                    <h3>About me</h3>
+                    <div class="authors">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptatem eveniet, cum recusandae magni ea itaque praesentium. Provident vitae neque est, esse tempora, quas voluptas inventore nihil, fugiat ipsum dolore. </div>
                 </div>
 
 
             </div>
         </div>
     </section>
+
+
+
+</section>
+<section id="team" class="scroll-fix">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="team-shadow"></div>
+        <h2 class="os-animation visibility" data-animation="fadeIn">Współpraca</h2>
+        <div class="underline os-animation visibility" data-animation="fadeIn" data-delay=".1s"></div>
+
+        <div class="card-deck wrapper team-carousel">
+            <div class="card">
+                <img src="static/img/team/adult-2449725_1920.jpg" class="card-img-top" alt="Zdjęcie prezesa">
+                <div class="card-body">
+                    <h5 class="card-title">Dyrektor</h5>
+                    <p class="card-text">Szef szefów. Nikt nie zna jego imienia</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="static/img/team/woman-1320810_1920.jpg" class="card-img-top" alt="Zdjęcie osoby z HR">
+                <div class="card-body">
+                    <h5 class="card-title">Pani z recepcji</h5>
+                    <p class="card-text">Paula zajmuje się rekrutowaniem osób do szybko rozwijającego się
+                        zespołu.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="static/img/team/building-2762241_1920.jpg" class="card-img-top"
+                    alt="Na zdjęciu widoczna osoba, która jest przysłowiowym cieciem">
+                <div class="card-body">
+                    <h5 class="card-title">Cieciu</h5>
+                    <p class="card-text">Pan cieciu u zajmuje się konserwacją budynku</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="static/img/team/bart.jpg" class="card-img-top" alt="Zdjęcie tajemniczego szefa">
+                <div class="card-body">
+                    <h5 class="card-title">Bart</h5>
+                    <p class="card-text">Tak na prawdę, to on jest szefem, ale oficjalny szef jest jego słupem w
+                        razie kontroli skarbówki</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="static/img/team/women-1209678_1920.jpg" class="card-img-top"
+                    alt="Zdjęcie kobiet pracujących w kuchni">
+                <div class="card-body">
+                    <h5 class="card-title">Panie kucharki</h5>
+                    <p class="card-text">Ania i Hania robią swietny kompot dla dzieci.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 </main>
     <footer>
-        <p> &copy; Ofey </p>
+        <p> Stronę zaprojektowała &copy;Malwa, wykonał &copy;Mat </p>
     </footer>
 
 
@@ -244,12 +304,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-
-
-
-    <!-- skrypt do animacji gradientu -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
-
 
 
     <script src="static/js/animation.js"></script>
