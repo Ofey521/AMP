@@ -16,15 +16,15 @@
 
 
     <link rel="stylesheet" href="/static/css/main.css"> 
-    <link rel="stylesheet" href="static/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="static/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="static/slick/slick-theme.css" />
+    <link rel="stylesheet" href="/static/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="/static/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/static/slick/slick-theme.css" />
     
    <!--  <link rel="stylesheet" media='screen and (min-width: 768px)' href="static/css/small.css"> -->
-    <link rel="stylesheet" media='screen and (min-width: 768px)' href="static/css/medium.css">
-    <link rel="stylesheet" media='screen and (min-width: 1300px)' href="static/css/main.css">
-    <link rel="stylesheet" href="static/css/font-awesome.css">
-    <link rel="stylesheet" href="static/css/all.css">
+    <link rel="stylesheet" media='screen and (min-width: 768px)' href="/static/css/medium.css">
+    <link rel="stylesheet" media='screen and (min-width: 1300px)' href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/font-awesome.css">
+    <link rel="stylesheet" href="/static/css/all.css">
 
 
 </head>
@@ -50,7 +50,7 @@
                 <a class="nav-item nav-link active" href="#home">Home</a>
                 <a class="nav-item nav-link radius" href="#aboutus">O projekcie</a>
                 <a class="nav-item nav-link" href="#aboutus-hero">Autorzy</a>
-                <a class="nav-item nav-link" href="https://issuu.com/nieregularnesrodowisko/docs/antologia_issu_6ca9cfcadb7392?fbclid=IwAR30dr2x9rii6pYqvrdL7JX2TMX7fXkVIFbcSCJlzuucaqq748Ui7iWKrtU" target="blank">Czytaj na issue</a>
+                <a class="nav-item nav-link" href="https://issuu.com/nieregularnesrodowisko/docs/antologia_issu_6ca9cfcadb7392?fbclid=IwAR30dr2x9rii6pYqvrdL7JX2TMX7fXkVIFbcSCJlzuucaqq748Ui7iWKrtU" target="blank">Czytaj na ISSUU</a>
                 <a class="nav-item nav-link" href="#contact">Kontakt</a>
             </div>
         </div>
@@ -204,7 +204,7 @@
             <div class="wrapper row text-center contact-us">
                 <div class="contact-item col-sm-4 col-lg-4 order-1 order-lg-1">
                     <h3>Dla autorów</h3>
-                    <p>
+                    <p class="for_author">
                         Proszę o przesyłanie tekstów w formatach .doc, .png , czcionka Times New Roman, 12 pkt.,
                         interlinia 1,5 wersu, obustronnie wyjustowane, margines standardowy 2,5 cm wraz z krótkim
                         biogramem.</p>
@@ -225,8 +225,14 @@
                 </div>
                 
                 <div class="contact-item col-sm-4 col-lg-4 order-1 order-lg-1">
-                    <h3>About me</h3>
-                    <div class="authors">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptatem eveniet, cum recusandae magni ea itaque praesentium. Provident vitae neque est, esse tempora, quas voluptas inventore nihil, fugiat ipsum dolore. </div>
+
+                    <div class="author">
+                        <p>
+                            Prowadzenie projektu: Kamil Kawalec<br>
+                            e-mail: kam.kawalec@gmail.com</p>
+                        <p>Antologia powstała w ramach stypendium artystycznego
+                        Prezydenta Wrocławia z zakresu upowszechniania kultury na 2020 r.
+                        Animacja młodego wrocławskiego środowiska poetyckiego. </p></div>
                 </div>
 
 
@@ -234,58 +240,53 @@
         </div>
     </section>
 
+    <section id="cooperation" class="scroll-fix">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="team-shadow"></div>
+            <h2 class="os-animation visibility" data-animation="fadeIn">Współpraca</h2>
+            <br>
+            <div class="underline os-animation visibility" data-animation="fadeIn" data-delay=".1s"></div>
 
-
-</section>
-<section id="team" class="scroll-fix">
-    <div class="jumbotron jumbotron-fluid">
-        <div class="team-shadow"></div>
-        <h2 class="os-animation visibility" data-animation="fadeIn">Współpraca</h2>
-        <div class="underline os-animation visibility" data-animation="fadeIn" data-delay=".1s"></div>
-
-        <div class="card-deck wrapper team-carousel">
-            <div class="card">
-                <img src="static/img/team/adult-2449725_1920.jpg" class="card-img-top" alt="Zdjęcie prezesa">
-                <div class="card-body">
-                    <h5 class="card-title">Dyrektor</h5>
-                    <p class="card-text">Szef szefów. Nikt nie zna jego imienia</p>
+            <div class="card-deck wrapper team-carousel">
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-01.png" class="card-img-top" 
+                    alt="">
                 </div>
-            </div>
-            <div class="card">
-                <img src="static/img/team/woman-1320810_1920.jpg" class="card-img-top" alt="Zdjęcie osoby z HR">
-                <div class="card-body">
-                    <h5 class="card-title">Pani z recepcji</h5>
-                    <p class="card-text">Paula zajmuje się rekrutowaniem osób do szybko rozwijającego się
-                        zespołu.</p>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-02.png" class="card-img-top" 
+                    alt="">
                 </div>
-            </div>
-            <div class="card">
-                <img src="static/img/team/building-2762241_1920.jpg" class="card-img-top"
-                    alt="Na zdjęciu widoczna osoba, która jest przysłowiowym cieciem">
-                <div class="card-body">
-                    <h5 class="card-title">Cieciu</h5>
-                    <p class="card-text">Pan cieciu u zajmuje się konserwacją budynku</p>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-03.png" class="card-img-top"
+                        alt="">
                 </div>
-            </div>
-            <div class="card">
-                <img src="static/img/team/bart.jpg" class="card-img-top" alt="Zdjęcie tajemniczego szefa">
-                <div class="card-body">
-                    <h5 class="card-title">Bart</h5>
-                    <p class="card-text">Tak na prawdę, to on jest szefem, ale oficjalny szef jest jego słupem w
-                        razie kontroli skarbówki</p>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-04.png" class="card-img-top" 
+                    alt="">
                 </div>
-            </div>
-            <div class="card">
-                <img src="static/img/team/women-1209678_1920.jpg" class="card-img-top"
-                    alt="Zdjęcie kobiet pracujących w kuchni">
-                <div class="card-body">
-                    <h5 class="card-title">Panie kucharki</h5>
-                    <p class="card-text">Ania i Hania robią swietny kompot dla dzieci.</p>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-05.png" class="card-img-top"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-06.png" class="card-img-top"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-07.png" class="card-img-top"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-08.png" class="card-img-top"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="/static/img/LOGOTYPY-09.png" class="card-img-top"
+                        alt="">
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 

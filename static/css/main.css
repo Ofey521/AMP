@@ -318,75 +318,10 @@ i.ikona {
   padding-bottom: 20px;
 }
 
-#prices .jumbotron {
-  background-color: #f9f9f9;
-}
-
-#prices .price-wrap {
-  max-width: 2560px;
-  width: 95%;
-  margin: 0 auto;
-}
-
-#prices .price-box {
-  margin: 20px 10px;
-  padding: 30px;
-  background-color: #fff;
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
-}
-
-#prices .price-box h3 {
-  color: #039dff;
-  text-transform: uppercase;
-}
-
-#prices .price-box span {
-  font-weight: bold;
-}
-
-#prices .price-box i {
-  padding: 0 5px;
-  font-size: 23px;
-}
-
-#prices .price-box button {
-  padding: 10px 20px;
-  text-transform: uppercase;
-}
-
-#prices .price-box .price {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-#prices .price-box:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-#prices .price-text {
-  margin-top: 30px;
-}
-
 
 /* css do slidera*/
 
 
-footer {
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
-}
-
-footer p {
-  padding: 20px;
-  margin-bottom: 0;
-  text-align: center;
-}
 
 @media (min-width: 375px) {
   header h1 {
@@ -521,15 +456,77 @@ background: rgba(255,0,0,0.4);
   text-shadow: 0 0 5px black;
 }
 
+.for_author{
+  text-align: left;
+  color: #ef4027;
+}
+
+.author{
+  text-align: left;
+  color: #ef4027;
+}
+
 .mail{
   font-size: 30px;
   padding-left: 5px;
 }
 
 
+#cooperation .jumbotron {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#cooperation .jumbotron h2 {
+  color: #ddd;
+}
+
+#cooperation .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#ef4027;
+}
+
+#cooperation .card {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+
+}
+
+#cooperation .card img {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+
+}
+
+#cooperationm .card .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#cooperation .card:hover {
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+
+
+
+
 
 footer {
   color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
 footer p {
