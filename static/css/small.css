@@ -1,4 +1,63 @@
-#prices .price-wrap {
-  width: 70%;
+.re-text {
+  font-size: 90px;
+
+  letter-spacing: -10px;
+
 }
-/*# sourceMappingURL=small.css.map */
+
+.g-text {
+  font-size: 90px;
+
+}
+.u-text{
+  font-size: 150px;
+
+  
+}
+.ly-text {
+  font-size: 80px;
+}
+
+.gr-text {
+  font-size: 90px;
+  letter-spacing: -15px;
+
+}
+
+.y-text {
+  font-size: 80px;
+}
+
+.mat{
+  padding-left:180px;
+}
+
+.ant{
+  font-size: 33px;
+
+  
+}
+
+.special_arrow img{
+  height: 150px;
+  width: auto;
+  padding-right: 20px;
+}
+
+
+#aboutus-hero .jumbotron .autorzy{
+  font-size: 20px;
+}
+
+.for_author{
+font-size:19px;
+}
+
+.author{
+  font-size:18px;
+}
+
+.mail{
+  font-size: 14px;
+}
+

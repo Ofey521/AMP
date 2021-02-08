@@ -1,3 +1,4 @@
+/*
 header h1 {
   font-size: 42px;
 }
@@ -16,50 +17,60 @@ header .hero-text p {
 
 #team .card-body {
   height: 150px;
-}
+}*/
+
 
 .re-text {
-  font-size: 80px;
-  padding: 5px;
-  color: #d84f00;
-  font-family: 'acumin-pro';
+  font-size: 120px;
+
+  letter-spacing: -10px;
 
 }
 
-.gu-text {
-  font-size: 89px;
-  padding: 3px;
-  color: #d84f00;
-  font-family: 'cormorant-garamond';
-  font-style: italic;
-}
+.g-text {
+  font-size: 130px;
 
+}
+.u-text{
+  font-size: 220px;
+
+  
+}
 .ly-text {
-  font-size: 80px;
-  padding: 3px;
-  color: #d84f00;
-  font-family: 'acumin-pro';
+  font-size: 120px;
 }
 
 .gr-text {
-  font-size: 80px;
-  padding: 3px;
-  color: #d84f00;
-  font-family: 'cormorant-garamond';
+  font-size: 130px;
+  letter-spacing: -15px;
 }
 
 .y-text {
-  font-size: 80px;
-  padding: 3px;
-  color: #d84f00;
-  font-family: 'acumin-pro';
+  font-size: 120px;
+}
+
+.mat{
+  padding-left:250px;
 }
 
 .ant{
-  font-family: 'cormorant-garamond';
-  font-size: 50px;
+  font-size: 44px;
   
 }
-a.nav-item.nav-link.radius{
-  border: 0px solid rgb(250, 250, 250);
+
+#aboutus-hero .jumbotron .autorzy{
+  font-size: 20px;
 }
+
+.for_author{
+font-size:19px;
+}
+
+.author{
+  font-size:18px;
+}
+
+.mail{
+  font-size: 14px;
+}
+
