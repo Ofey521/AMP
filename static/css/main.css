@@ -169,7 +169,7 @@ header .hero-text_glowny {
   height: 100%;
 }
 .mat{
-  padding-left:480px;
+  /*padding-left:480px;*/
 }
 
 .re-text {
@@ -217,19 +217,28 @@ header .hero-text_glowny {
 .ant{
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
-  font-size: 79px;
+  font-size: 40px;
   color: #ef4027;
+  padding-left:350px;
   
 }
 
 
 .special_arrow{
-
   text-align:right;
 }
 
+.special_arrow_download{
+  text-align:left;
 
+}
 
+.download_antol{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+  color: #ef4027;
+}
 
 
 header .fa-chevron-down {
