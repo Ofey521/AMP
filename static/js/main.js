@@ -32,8 +32,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // slickJS
+
+    
     $('.team-carousel').slick({
         autoplay: true,
+        variableWidth: true,
         autoplaySpeed: 3500,
         mobileFirst: true,
         slidesToShow: 1,
@@ -58,5 +61,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         ]
     });
+
 
 });

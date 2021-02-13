@@ -18,6 +18,16 @@ body {
   font-size: 27px;
 }
 
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #ef4027
+}
+
+
 h2 {
   text-transform: uppercase;
   text-align: center;
@@ -178,7 +188,8 @@ header .hero-text_glowny {
 .u-text{
   font-size: 350px;
   color: #ef4027;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond',serif;
+  font-weight: 300;
   
 }
 .ly-text {
@@ -205,6 +216,7 @@ header .hero-text_glowny {
 
 .ant{
   font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
   font-size: 79px;
   color: #ef4027;
   
@@ -326,10 +338,7 @@ i.ikona {
 }
 
 
-
-
 /* css do slidera*/
-
 
 
 @media (min-width: 375px) {
@@ -371,28 +380,6 @@ i.ikona {
 }
 
 
-/* Let's get this party started */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  background: rgba(244,73,16,1); 
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-::-webkit-scrollbar-thumb:window-inactive {
-background: rgba(255,0,0,0.4); 
-}
 
 
 /*nowy footer*/
@@ -483,12 +470,11 @@ background: rgba(255,0,0,0.4);
 
 #cooperation .jumbotron {
   position: relative;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
+
 #cooperation .jumbotron h2 {
-  color: #ddd;
+  color: #ef4027;
 }
 
 #cooperation .team-shadow {
@@ -496,7 +482,7 @@ background: rgba(255,0,0,0.4);
   top: 0;
   width: 100%;
   height: 100%;
-  background-color:#ef4027;
+  background-color:#ffffff;
 }
 
 #cooperation .card {
@@ -508,8 +494,6 @@ background: rgba(255,0,0,0.4);
 }
 
 #cooperation .card img {
-  height: 300px;
-  width: 300px;
   -o-object-fit: cover;
   object-fit: cover;
   margin: 0 auto;
@@ -537,4 +521,17 @@ footer p {
   padding: 20px;
   margin-bottom: 0;
   text-align: center;
+}
+
+.card-deck .cw-30 {
+  flex: 1 0 30%;
+  max-width: 30%;
+  height:20%;
+}
+
+.card-deck .cw-70 {
+  flex: 1 0 70%;
+  max-width: 70%;
+  height:20%;
+
 }
