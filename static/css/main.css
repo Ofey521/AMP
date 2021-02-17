@@ -66,6 +66,7 @@ h2 {
 
 .jumbotron {
   margin: 0;
+  background-color: white;
 }
 
 
@@ -78,9 +79,6 @@ nav i {
 
 
 }
-
-
-
 /*.navbar-brand {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -95,10 +93,8 @@ a.nav-item.nav-link.radius {
   border-radius: 50%;
 }
 
-
-
 nav a:hover {
-  color: #000000;
+  color: #f7f33c;
 }
 
 nav i {
@@ -137,13 +133,15 @@ header .hero-img {
   background-position: center;
   background-size: cover;
   z-index: 0;
-  background: linear-gradient(rgba(244, 73, 16, 1) 0%, rgba(249, 157, 126, 1) 30%, rgba(233, 236, 239, 1) 50%);
-  background-size: 200% 200%;
+  background: linear-gradient(rgba(244, 73, 16, 1) 0%, rgba(249, 157, 126, 1) 70%, rgb(255, 255, 255) 100%);
+
 
 }
 
 
-/*  display: -webkit-box;
+/* 
+background: linear-gradient(rgba(244, 73, 16, 1) 0%, rgba(249, 157, 126, 1) 30%, rgba(233, 236, 239, 1) 50%);
+display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
@@ -226,6 +224,7 @@ header .hero-text_glowny {
   font-size: 40px;
   color: #ef4027;
   padding-left: 350px;
+  text-align: right;
 
 }
 
@@ -241,15 +240,13 @@ header .hero-text_glowny {
 
 .download_antol_up {
   font-size: 22px;
-  font-weight: 600;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'acumin-pro';
   color: #ef4027;
 }
 
 .download_antol_down {
   font-size: 18px;
-  font-weight: 600;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'acumin-pro';
   color: #ef4027;
 }
 
@@ -284,7 +281,7 @@ i.icon-strzala:before {
 }
 
 #aboutus p {
-  font-size: 30px;
+  font-size: 43px;
   color:#ef4027;
   font-family: 'Cormorant Garamond', serif;
   text-align:left;
@@ -348,7 +345,7 @@ i.ikona {
 
 
 .button {
-  background-color:#F44910;; /* Green */
+  background-color:#F44910; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -356,7 +353,7 @@ i.ikona {
   font-family: 'acumin-pro', sans-serif;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   width: 200px;
   height:70px;
 }
@@ -417,9 +414,6 @@ i.ikona {
     height: 120px;
   }
 }
-
-
-
 
 /*nowy footer*/
 
@@ -495,7 +489,7 @@ i.ikona {
 .for_author {
   text-align: left;
   color: #ef4027;
-  font-size: 30px;
+  font-size: 24px;
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -578,4 +572,9 @@ footer p {
   max-width: 70%;
   height: 20%;
 
+}
+
+.footer{
+  color:#ef4027;
+  font-size: 15px;
 }
