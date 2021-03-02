@@ -166,6 +166,7 @@ header .hero-text_glowny {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  line-height: 0.8;
   height: 100%;
 }
 
@@ -174,7 +175,7 @@ header .hero-text_glowny {
 }
 
 .re-text {
-  font-size: 230px;
+  font-size: 270px;
   color: #ef4027;
   font-family: 'acumin-pro';
   letter-spacing: -20px;
@@ -182,14 +183,14 @@ header .hero-text_glowny {
 }
 
 .g-text {
-  font-size: 255px;
+  font-size: 300px;
   color: #ef4027;
   letter-spacing: -12px;
   font-family: 'Cormorant Garamond', serif;
 }
 
 .u-text {
-  font-size: 395px;
+  font-size: 475px;
   color: #ef4027;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
@@ -197,7 +198,7 @@ header .hero-text_glowny {
 }
 
 .ly-text {
-  font-size: 215px;
+  font-size: 270px;
   padding-right: 40px;
   color: #ef4027;
   font-family: 'acumin-pro', sans-serif;
@@ -206,14 +207,14 @@ header .hero-text_glowny {
 }
 
 .gr-text {
-  font-size: 235px;
+  font-size: 300px;
   color: #ef4027;
   font-family: 'Cormorant Garamond', serif;
   letter-spacing: -25px;
 }
 
 .y-text {
-  font-size: 215px;
+  font-size: 270px;
   color: #ef4027;
   font-family: 'acumin-pro', sans-serif;
 }
@@ -221,31 +222,43 @@ header .hero-text_glowny {
 .ant {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 80px;
+  line-height: 1em;
   color: #ef4027;
-  padding-left: 350px;
+  padding-left: 250px;
   text-align: right;
 
 }
 
-
+.leftArrow{
+  padding-top:130px;
+  padding-left:150px;
+}
 .special_arrow {
   text-align: right;
+  padding-right: 120px;
+  padding-top: 80px;
 }
 
 .special_arrow_download {
-  text-align: left;
+  text-align: right;
+}
 
+.nopading{
+  padding:0px;
 }
 
 .download_antol_up {
-  font-size: 22px;
+  font-size: 30px;
+  padding-bottom:15px;
   font-family: 'acumin-pro';
+  line-height: 1em;
   color: #ef4027;
 }
 
 .download_antol_down {
-  font-size: 18px;
+  font-size: 26px;
+  line-height:1em;
   font-family: 'acumin-pro';
   color: #ef4027;
 }
