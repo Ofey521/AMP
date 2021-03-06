@@ -1,55 +1,48 @@
-header .fa-chevron-down {
-  display: block;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  font-size: 50px;
-  -webkit-animation: bounce 1.6s infinite;
-  animation: bounce 1.6s infinite;
-  color: #fff;
+.re-text {
+  font-size: 166px;
+  letter-spacing: -10px;
+
 }
 
+.g-text {
+  font-size: 190px;
 
-#prices .price-wrap {
-  width: 80%;
+}
+.u-text{
+  font-size: 295px;
+
+  
+}
+.ly-text {
+  font-size: 162px;
 }
 
-@media (min-width: 1200px) {
-  #aboutus-hero .jumbotron {
-    padding: 100px 0;
-  }
+.gr-text {
+  font-size: 180px;
+  letter-spacing: -15px;
 
-  #prices .price-wrap {
-    width: 85%;
-  }
-
-  #team .card-text {
-    font-size: 16px;
-  }
 }
 
-@media (min-width: 1400px) {
-  #aboutus-hero .jumbotron {
-    padding: 120px 0;
-  }
+.y-text {
+  font-size: 162px;
 }
 
-@media (min-width: 1800px) {
-  #team .card-text {
-    font-size: 18px;
-  }
+.download_antol_up{
+    font-size:25px;  
+}
+.download_antol_down{
+    font-size: 20px;
+
+}
+.ant{
+  font-size: 37px;
+  padding-left:70px;
 }
 
-@media (min-width: 2000px) {
-  #aboutus-hero .jumbotron {
-    padding: 100px 0;
-  }
+#aboutus-hero .jumbotron .autorzy{
 
-  #prices .price-wrap {
-    width: 70%;
-  }
+  font-size:27px;
 }
-
-/*# sourceMappingURL=large.css.map */
+#myDIV p{
+  font-size: 30px
+}

@@ -17,7 +17,7 @@ header .hero-text p {
 
 #team .card-body {
   height: 150px;
-}*/
+}
 
 
 .re-text {
@@ -50,11 +50,11 @@ header .hero-text p {
 }
 
 .mat{
-  /*padding-left:250px;*/
+  padding-left:250px;
 }
 
 .ant{
-  /*font-size: 44px;
+  font-size: 44px;
   
 }
 
@@ -74,3 +74,4 @@ font-size:19px;
   font-size: 14px;
 }
 
+*/

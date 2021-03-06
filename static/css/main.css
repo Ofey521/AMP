@@ -135,7 +135,6 @@ header .hero-img {
   z-index: 0;
   background: linear-gradient(rgba(244, 73, 16, 1) 0%, rgba(249, 157, 126, 1) 70%, rgb(255, 255, 255) 100%);
 
-
 }
 
 
@@ -168,10 +167,6 @@ header .hero-text_glowny {
   flex-direction: column;
   line-height: 0.8;
   height: 100%;
-}
-
-.mat {
-  /*padding-left:480px;*/
 }
 
 .re-text {
@@ -222,7 +217,7 @@ header .hero-text_glowny {
 .ant {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1em;
   color: #ef4027;
   padding-left: 250px;
@@ -251,6 +246,7 @@ header .hero-text_glowny {
 .download_antol_up {
   font-size: 30px;
   padding-bottom:15px;
+  padding-left:10px;
   font-family: 'acumin-pro';
   line-height: 1em;
   color: #ef4027;
@@ -258,6 +254,7 @@ header .hero-text_glowny {
 
 .download_antol_down {
   font-size: 26px;
+  padding-left:10px;
   line-height:1em;
   font-family: 'acumin-pro';
   color: #ef4027;
