@@ -1,77 +1,67 @@
-/*
-header h1 {
-  font-size: 42px;
-}
-
-header .hero-text p {
-  font-size: 20px;
-}
-
-#prices .price-wrap {
-  width: 90%;
-}
-
-#prices .price-info {
-  font-size: 23px;
-}
-
-#team .card-body {
-  height: 150px;
-}
-
-
 .re-text {
-  font-size: 120px;
-
+  font-size: 125px;
   letter-spacing: -10px;
 
 }
 
 .g-text {
-  font-size: 130px;
+  font-size: 140px;
 
 }
 .u-text{
-  font-size: 220px;
+  font-size: 225px;
 
   
 }
 .ly-text {
-  font-size: 120px;
+  font-size: 125px;
 }
 
 .gr-text {
-  font-size: 130px;
+  font-size: 140px;
   letter-spacing: -15px;
+
 }
 
 .y-text {
-  font-size: 120px;
+  font-size: 125px;
 }
 
-.mat{
-  padding-left:250px;
+.download_antol_up{
+    font-size:25px;  
 }
+.download_antol_down{
+    font-size: 20px;
 
+}
 .ant{
-  font-size: 44px;
-  
+  font-size: 30px;
+  padding-right:50px;
 }
 
 #aboutus-hero .jumbotron .autorzy{
-  font-size: 20px;
+
+  font-size:27px;
+}
+#myDIV p{
+  font-size: 30px
+}
+.leftArrow{
+  padding-top:180px;
+  padding-left:40px;
+}
+.special_arrow {
+  padding-top: 105px;
 }
 
-.for_author{
-font-size:19px;
+p.for_author{
+  font-size: 17px;
 }
-
 .author{
-  font-size:18px;
-}
-
-.mail{
   font-size: 14px;
+  padding-top: 200px;
 }
 
-*/
+#contact .contact-us .contact-item h3{
+  font-size:17px;
+}
