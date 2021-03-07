@@ -227,10 +227,12 @@ header .hero-text_glowny {
 }
 
 .leftArrow{
+  display:block;
   padding-top:130px;
   padding-left:150px;
 }
 .special_arrow {
+  display:block;
   text-align: right;
   padding-right: 120px;
   padding-top: 40px;
@@ -316,6 +318,9 @@ i.ikona {
   /* Other styles here */
 }
 
+#aboutus-hero{
+  display:block;
+}
 
 #aboutus-hero p {
   color: rgb(0, 0, 0);
@@ -471,6 +476,7 @@ i.ikona {
 }
 
 #contact .contact-us .contact-item h3 {
+  font-size:22px;
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -505,8 +511,9 @@ i.ikona {
 }
 
 .author {
+  display:block;
   text-align: left;
-  padding-top:155px;
+  padding-top:120px;
   color: #ef4027;
   font-size: 23px;
   font-family: 'Cormorant Garamond', serif;

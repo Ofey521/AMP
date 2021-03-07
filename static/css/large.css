@@ -31,7 +31,7 @@
     font-size:25px;  
 }
 .download_antol_down{
-    font-size: 20px;
+    font-size: 17px;
 
 }
 .ant{
@@ -40,7 +40,9 @@
   padding-right:42px;
   text-align:right;
 }
-
+#aboutus-hero{
+  display:block;
+}
 #aboutus-hero .jumbotron .autorzy{
 
   font-size:27px;
@@ -50,15 +52,20 @@
 }
 
 .author{
-  font-size:17px;
-  padding-top:154px;
+  display:block;
+  font-size:18px;
+  padding-top:115px;
 }
 
 .for_author{
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .leftArrow{
+  display:block;
   padding-top:180px;
   padding-left:35px;
+}
+.special_arrow {
+  display:block
 }

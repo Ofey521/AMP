@@ -38,3 +38,20 @@
     padding-right: 0px;
     text-align: right;
   }
+  #aboutus-hero{
+    display:block;
+  }
+  .leftArrow{
+    display:block;
+  }
+  .special_arrow {
+    display:block
+  }
+  .author{
+    display:block;
+    font-size: 18px;
+    padding-top:117px;
+  }
+  .for_author{
+    font-size:19px;
+  }
