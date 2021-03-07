@@ -25,10 +25,9 @@ STATIC_DIR = os.path.join(BASE_DIR,'static')
 SECRET_KEY = '2h#=gvyyk25c7npsj8^^1l@id8_drwq1&rzn4g5xp)ns=46kj+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
