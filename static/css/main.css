@@ -178,7 +178,7 @@ header .hero-text_glowny {
 }
 
 .g-text {
-  font-size: 300px;
+  font-size: 296px;
   color: #ef4027;
   letter-spacing: -12px;
   font-family: 'Cormorant Garamond', serif;
@@ -193,7 +193,7 @@ header .hero-text_glowny {
 }
 
 .ly-text {
-  font-size: 270px;
+  font-size: 261px;
   padding-right: 40px;
   color: #ef4027;
   font-family: 'acumin-pro', sans-serif;
@@ -202,7 +202,7 @@ header .hero-text_glowny {
 }
 
 .gr-text {
-  font-size: 300px;
+  font-size: 295px;
   color: #ef4027;
   font-family: 'Cormorant Garamond', serif;
   letter-spacing: -25px;
@@ -506,8 +506,9 @@ i.ikona {
 
 .author {
   text-align: left;
+  padding-top:155px;
   color: #ef4027;
-  font-size: 24px;
+  font-size: 23px;
   font-family: 'Cormorant Garamond', serif;
 }
 

@@ -1,30 +1,29 @@
 .re-text {
-    font-size: 200px;
+    font-size: 209px;
     letter-spacing: -10px;
   
   }
   
   .g-text {
-    font-size: 220px;
+    font-size: 229px;
   
   }
   .u-text{
-    font-size: 340px;
+    font-size: 370px;
   
     
   }
   .ly-text {
-    font-size: 185px;
+    font-size: 203px;
   }
   
   .gr-text {
-    font-size: 200px;
+    font-size: 227px;
     letter-spacing: -15px;
-  
   }
   
   .y-text {
-    font-size: 180px;
+    font-size: 207px;
   }
   
   .download_antol_up{
@@ -34,6 +33,8 @@
       font-size: 20px;
   }
   .ant{
-    font-size: 44px;
-    padding-left: 175px;
+    font-size: 60px;
+    padding-left: 150px;
+    padding-right: 0px;
+    text-align: right;
   }
