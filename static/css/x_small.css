@@ -1,7 +1,6 @@
 .re-text {
     font-size: 69px;
     letter-spacing: -10px;
-  
   }
   
   .g-text {
@@ -11,8 +10,6 @@
   }
   .u-text{
     font-size: 121px;
-  
-    
   }
   .ly-text {
     font-size: 65px;
@@ -35,11 +32,9 @@
   }
   
   #aboutus-hero{
-  
     display:none;
   }
 
-  
   .download_antol_up{
       font-size:25px; 
       padding-left:22px; 
@@ -47,12 +42,10 @@
   .download_antol_down{
       font-size: 20px;
       padding-left:22px;
-  
   }
   
   #aboutus-hero .jumbotron .autorzy
   {
-  
     font-size:17px;
   }
   
