@@ -1,0 +1,78 @@
+.re-text {
+    font-size: 69px;
+    letter-spacing: -10px;
+  }
+  
+  .g-text {
+    font-size: 77px;
+    letter-spacing: -8px;
+  
+  }
+  .u-text{
+    font-size: 121px;
+  }
+  .ly-text {
+    font-size: 65px;
+    letter-spacing: -14px;
+  }
+  
+  .gr-text {
+    font-size: 77px;
+    letter-spacing: -7px;
+  
+  }
+  .y-text {
+    font-size: 69px;
+  }
+  .ant{
+    font-size: 30px;
+    padding-left:58px;
+    text-align: right;
+    padding-right: 0px;
+  }
+  
+  #aboutus-hero{
+    display:none;
+  }
+
+  .download_antol_up{
+      font-size:25px; 
+      padding-left:22px; 
+  }
+  .download_antol_down{
+      font-size: 20px;
+      padding-left:22px;
+  }
+  
+  #aboutus-hero .jumbotron .autorzy
+  {
+    font-size:17px;
+  }
+  
+  #myDIV p
+  {
+    font-size: 20px;
+  }
+  .leftArrow{
+    display:none;
+    padding-top:180px;
+    padding-left:40px;
+  }
+  .special_arrow {
+    display:none;
+    padding-top: 100px;
+    padding-right: 60px;
+  }
+  
+  .for_author{
+    font-size: 13px;
+  }
+  .author{
+    display:none;
+    font-size: 13px;
+    padding-top: 176px;
+  }
+  
+  #contact .contact-us .contact-item h3{
+    font-size:17px;
+  }

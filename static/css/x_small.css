@@ -1,32 +1,32 @@
 .re-text {
-    font-size: 69px;
-    letter-spacing: -10px;
+    font-size: 60px;
+    letter-spacing: -7px;
   }
   
   .g-text {
-    font-size: 77px;
+    font-size: 65px;
     letter-spacing: -8px;
   
   }
   .u-text{
-    font-size: 121px;
+    font-size: 105px;
   }
   .ly-text {
-    font-size: 65px;
+    font-size: 58px;
     letter-spacing: -14px;
   }
   
   .gr-text {
-    font-size: 77px;
+    font-size: 65px;
     letter-spacing: -7px;
   
   }
   .y-text {
-    font-size: 69px;
+    font-size: 58px;
   }
   .ant{
     font-size: 30px;
-    padding-left:58px;
+    padding-left:15px;
     text-align: right;
     padding-right: 0px;
   }
