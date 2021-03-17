@@ -1,32 +1,33 @@
 .re-text {
-    font-size: 60px;
-    letter-spacing: -7px;
+    font-size: 58px;
+    letter-spacing: -5px;
   }
   
   .g-text {
-    font-size: 65px;
-    letter-spacing: -8px;
+    font-size: 64px;
+    letter-spacing: -9px;
   
   }
   .u-text{
-    font-size: 105px;
+    font-size: 103px;
   }
   .ly-text {
-    font-size: 58px;
-    letter-spacing: -14px;
+    font-size: 57px;
+    letter-spacing: -10px;
+    padding-right: 20px;
   }
   
   .gr-text {
-    font-size: 65px;
-    letter-spacing: -7px;
+    font-size: 64px;
+    letter-spacing: -9px;
   
   }
   .y-text {
-    font-size: 58px;
+    font-size: 57px;
   }
   .ant{
     font-size: 30px;
-    padding-left:15px;
+    padding-left:0px;
     text-align: right;
     padding-right: 0px;
   }
@@ -65,14 +66,75 @@
   }
   
   .for_author{
-    font-size: 13px;
+    font-size: 15px;
   }
   .author{
-    display:none;
-    font-size: 13px;
-    padding-top: 176px;
+    font-size: 15px;
+    padding-top: 0px;
   }
   
   #contact .contact-us .contact-item h3{
     font-size:17px;
   }
+
+
+  .social-media
+  {
+
+	  display:none;
+  }
+
+  #contact .contact-us .contact-item {
+	margin: 0px;
+  }
+
+  #contact .jumbotron{
+	height: 70vh;
+  }
+
+  .alternate_social{
+  display:block;
+  }
+  .alternate_social a
+  {
+  font-size: 50px;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 0 5px black;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  }
+
+  .alternate_social i
+  {
+    font-size: 50px;
+    padding: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ef4027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .alternate_social a:hover
+  {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  }
+
+ .a.nav-item.nav-link.radius
+ {
+  border: 0px;
+}
+
+a.nav-item.nav-link.author_mobile {
+    display: none;
+}
+
+a.nav-item.nav-link.radius {
+    border: 0px;
+}

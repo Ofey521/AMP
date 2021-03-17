@@ -54,3 +54,11 @@
   .for_author{
     font-size:19px;
   }
+
+  .social-media{
+  display:block;
+}
+
+ .alternate_social{
+  display:none;
+}

@@ -43,6 +43,11 @@ h2 {
   margin: 0 auto;
 }
 
+a.nav-item.nav-link.author_mobile {
+    display: block;
+}
+
+
 .about-us_text {
   color: rgb(71, 20, 20);
   font-size: 20px;
@@ -536,4 +541,12 @@ footer p {
 .footer{
   color:#ef4027;
   font-size: 15px;
+}
+
+.social-media{
+  display:block;
+}
+
+.alternate_social{
+  display:none;
 }
