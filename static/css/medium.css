@@ -32,50 +32,51 @@
 
 }
 .ant{
-  font-size: 45px;
-  padding-right:30px;
+  font-size: 40px;
+  padding-right:0px;
   text-align:right;
+  padding-left: 265px;
 }
 #aboutus-hero{
   display:block;
 }
 #aboutus-hero .jumbotron .autorzy{
 
-  font-size: 22px;
+  font-size: 15px;
 }
 #myDIV p{
-  font-size: 30px
+  font-size: 25px
 }
 .leftArrow{
-  display:block;
+  display:none;
   padding-top:180px;
   padding-left:40px;
 }
 .special_arrow {
-  display:block;
+  display:none;
   padding-top: 105px;
 }
 
 .for_author{
-  font-size: 18px;
+  font-size: 13px;
 }
 .author{
   display:block;
-  font-size: 18px;
-  padding-top: 116px;
+  font-size: 13px;
+  padding-top: 37px;
   padding-left: 26px;
 }
 
 #contact .contact-us .contact-item h3{
-  font-size:17px;
+  font-size:15px;
 }
 
 .social-media{
-  display:block;
+  display:none;
 }
 
 .alternate_social{
-  display:none;
+  display:block;
 }
 
 a.nav-item.nav-link.author_mobile {

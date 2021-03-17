@@ -68,11 +68,11 @@
 }
 
 .for_author{
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 0px;
 }
 .author{
-  font-size: 10px;
+  font-size: 12px;
   padding-top: 5px;
 }
 
@@ -103,8 +103,7 @@ a.nav-item.nav-link.radius {
 
 .social-media
   {
-
-          display:none;
+	display:none;
   }
 
   #contact .contact-us .contact-item {
