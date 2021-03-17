@@ -25,10 +25,10 @@
   font-size: 98px;
 }
 .ant{
-  font-size: 30px;
-  padding-left:0px;
+  font-size: 28px;
+  padding-left:225px;
   text-align: right;
-  padding-right: 30px;
+  padding-right: 0px;
 }
 
 #aboutus-hero .jumbotron .autorzy{
@@ -48,36 +48,37 @@
 }
 #aboutus-hero .jumbotron .autorzy
 {
-
-  font-size:17px;
+  font-size:10px;
+  line-height: 1em;
 }
 
 #myDIV p
 {
-  font-size: 30px;
+  font-size: 20px;
 }
 .leftArrow{
-  display:block;
+  display:none;
   padding-top:180px;
   padding-left:40px;
 }
 .special_arrow {
-  display:block;
+  display:none;
   padding-top: 100px;
   padding-right: 60px;
 }
 
 .for_author{
-  font-size: 13px;
+  font-size: 10px;
+  margin-bottom: 0px;
 }
 .author{
-  display:block;
-  font-size: 13px;
-  padding-top: 115px;
+  font-size: 10px;
+  padding-top: 5px;
 }
 
 #contact .contact-us .contact-item h3{
-  font-size:17px;
+  font-size:10px;
+  margin-bottom: -26px;
 }
 
 .social-media{
@@ -95,4 +96,62 @@ a.nav-item.nav-link.author_mobile {
 a.nav-item.nav-link.radius {
     border: 0px;
 }
+
+#aboutus-hero .jumbotron {
+    padding: 40px 0;
+}
+
+.social-media
+  {
+
+          display:none;
+  }
+
+  #contact .contact-us .contact-item {
+        margin: 0px;
+  }
+
+  #contact .jumbotron{
+        height: 70vh;
+  }
+
+
+
+  .alternate_social{
+  display:block;
+  }
+
+
+  .alternate_social a
+  {
+  font-size: 50px;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 0 5px black;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  }
+
+
+  .alternate_social i
+  {
+    font-size: 50px;
+    padding: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ef4027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  .alternate_social a:hover
+  {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  }
 
